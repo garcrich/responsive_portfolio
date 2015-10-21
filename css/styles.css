@@ -1,0 +1,274 @@
+
+/*================
+Colors
+==============*/
+/*
+ Orange: f8981c
+ Grey: 747704
+*/
+
+/*================
+Font Families
+==============*/
+
+/*
+font-family: 'Poiret One', cursive;
+font-family: 'Muli', sans-serif;
+*/
+
+/*================
+General
+==============*/
+body {
+	width: 100%;
+}
+
+#page-wrap {
+	width: 90%;
+	margin: 0 5%;
+}
+
+img	{
+	max-width: 100%;
+	border: none;
+	border-radius: .5em;
+}
+
+a {
+	text-decoration: none;
+	color: #747704;
+}
+
+a:hover {
+	color: #f8981c;
+}
+
+/*==============
+Grid
+==============*/
+
+.row {
+	width: 100%;
+}
+
+.col-1 {
+	width: 5.5%;
+}
+
+.col-2 {
+	width: 14%;
+}
+
+.col-3 {
+	width: 22.5%;
+}
+
+.col-4 {
+	width: 31%;
+}
+
+.col-5 {
+	width: 39.5%;
+}
+
+.col-6 {
+	width: 48%;
+}
+
+.col-7 {
+	width: 56.5%;
+}
+
+.col-8 {
+	width: 65%;
+}
+
+.col-9 {
+	width: 73.5%;
+}
+
+.col-10 {
+	width: 82%;
+}
+
+.col-11 {
+	width: 90.5%;
+}
+
+.col-12 {
+	width: 99%;
+	margin: 0;
+}
+
+/*================
+Font Styles
+==============*/
+
+.name {
+	color: #f8981c;
+}
+
+.title h1 {
+	font-family: 'Poiret One', 'Times New Roman', serif;
+	font-size: 3em;
+}
+
+.name,
+.title h3,
+.feat-title {
+	text-transform: uppercase;
+}
+
+.title h3,
+.feat-title {
+	color: #bcbbbb;
+	margin: 0;
+	padding: 1em 0 .5em .5em;
+	font-size: 1.25em;
+	font-family: 'Muli', sans-serif;
+}
+
+.feat p {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.25em;
+	color: #bcbbbb;
+	text-transform: uppercase;
+}
+
+/*================
+Heading
+==============*/
+
+.headline {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.header img {
+	padding: .75em 0 .35em;
+	margin: auto;
+}
+
+.title {
+	text-align: right;
+	float: right;
+}
+
+.title h1 {
+	margin: 0;
+	padding: 50px 0 0;
+}
+
+.title h3 {
+	padding: 0 0 1em;
+	margin:  0;
+}
+
+hr {
+	border-bottom: 3px solid #bcbbbb;
+	width: 100%
+}
+
+/*================
+Hero
+==============*/
+
+.hero {
+	margin: 0;
+	width: 100%;
+}
+
+.hero img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.25em;
+}
+
+/*================
+Projects
+==============*/
+
+.feat {
+	display: flex;
+	margin: 0 0 2em;
+	justify-content: space-between;
+}
+
+.proj-1,
+.proj-2,
+.proj-3,
+.proj-4,
+.proj-5,
+.proj-6  {
+	text-align: center;
+}
+
+
+/*==============
+Media Queries
+==============*/
+
+@media only screen and (max-width: 750px) {
+
+.title h1 {
+	font-size: 2.441em;
+}
+
+.feat-title {
+	font-size: 1em;
+}
+.feat p {
+	font-size: .8em;
+}
+.logo {
+	max-width: 18%;
+	padding-top: 10px;
+}
+}
+
+@media only screen and (max-width: 625px) {
+
+.logo {
+	display: none;
+}
+
+.title {
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 2.441em;
+}
+
+.title h3 {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.feat {
+	flex-direction: column;
+	width: 100%;
+}
+
+.feat-title {
+	font-size: .75em;
+	text-align: center;
+}
+
+.feat p {
+	font-size: 1em;
+}
+
+.proj-1,
+.proj-2,
+.proj-3,
+.proj-4,
+.proj-5,
+.proj-6  {
+	width: 75%;
+	margin: 0 auto;
+}
+}
