@@ -3,7 +3,7 @@
 
 The first project of Udacity's Nano Degree. This website is a template for a basic portfolio.
 
-#Website
+##Website
 
 Access the website by clicking on the following url:
 
